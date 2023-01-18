@@ -7,6 +7,6 @@ app.use(express.json());
 app.use("/user", require("./routes/user"));
 //app.get("/first", (req, res) => res.send("hello"));
 
-app.listen(5003, (err) =>
+app.listen(5004, (err) =>
   err ? console.log(err) : console.log("server is running")
 );
